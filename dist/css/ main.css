@@ -1,3 +1,17 @@
+.menu-btn {
+  position: absolute;
+  z-index: 3;
+  right: 35px;
+  top: 35px;
+  cursor: pointer;
+  transition: all 0.3s ease-out; }
+  .menu-btn .btn-line {
+    width: 28px;
+    height: 3px;
+    margin: 0 0 5px 0;
+    background: #fff;
+    transition: all 0.3s ease-out; }
+
 * {
   box-sizing: border-box; }
 
@@ -53,7 +67,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #adadad;
+        color: #005cfbfd;
         transition: all 0.3s ease-out; }
   main#home {
     overflow: hidden; }
