@@ -22,7 +22,9 @@
         float: none;
         width: 100vw;
         min-height:0;
-        
+        padding-top: 5px;
+        min-height: 130px;
+        line-height: 0.75;
         &.show{
             transform: translate3d(0,0,0);
         }
