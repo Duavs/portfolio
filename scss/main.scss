@@ -87,10 +87,13 @@ main{
     margin: auto;
     border-radius: 50%;
     border: $secondary-color 3px solid;
+    width: 250px;
+    height: 250px;
 }
 
 .bio {
     grid-area: bio;
+    font-size: 1.5rem;
 }
 
 .job-1 {
@@ -103,4 +106,10 @@ main{
 
 .job-3 {
     grid-area: job3;
+}
+
+.job{
+    background: lighten($primary-color, 5);
+    padding: 0.5rem;
+    border-bottom: $secondary-color 5px solid;
 }
